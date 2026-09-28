@@ -1,0 +1,4 @@
+/icsverify
+/cmd/icsverify/icsverify
+*.out
+coverage.txt

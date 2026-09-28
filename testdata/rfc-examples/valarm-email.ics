@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+PRODID:-//example//EN
+VERSION:2.0
+BEGIN:VTODO
+UID:valarm-email@example.com
+DTSTAMP:19970901T130000Z
+DUE:19970320T170000Z
+SUMMARY:Weekly staff meeting agenda
+BEGIN:VALARM
+TRIGGER;RELATED=END:-P2D
+ACTION:EMAIL
+ATTENDEE:mailto:john_doe@example.com
+SUMMARY:*** REMINDER: SEND AGENDA FOR WEEKLY STAFF MEETING ***
+DESCRIPTION:A draft agenda needs to be sent out to the attendees
+  to the weekly managers meeting (MGR-LIST). Attached is a
+  pointer the document template for the agenda file.
+ATTACH;FMTTYPE=application/msword:http://example.com/
+ templates/agenda.doc
+END:VALARM
+END:VTODO
+END:VCALENDAR
