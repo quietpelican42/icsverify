@@ -67,10 +67,10 @@ entirely.
 ## Installation
 
 ```sh
-go install github.com/__GH_OWNER__/icsverify/cmd/icsverify@latest
+go install github.com/quietpelican42/icsverify/cmd/icsverify@latest
 ```
 
-Or as a library: `go get github.com/__GH_OWNER__/icsverify`.
+Or as a library: `go get github.com/quietpelican42/icsverify`.
 
 ## Usage
 

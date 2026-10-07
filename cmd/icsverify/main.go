@@ -21,7 +21,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/__GH_OWNER__/icsverify/ics"
+	"github.com/quietpelican42/icsverify/ics"
 )
 
 func main() {

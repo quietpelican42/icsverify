@@ -1,3 +1,3 @@
-module github.com/__GH_OWNER__/icsverify
+module github.com/quietpelican42/icsverify
 
 go 1.27.1
